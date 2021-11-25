@@ -1,5 +1,3 @@
-![AlphaxCore](https://github.com/AlphaX-Projects/alphaxcore/blob/master/alphaxcore.png)
-
 ### Features
 
 - Supports clusters of pools each running individual currencies
