@@ -15,29 +15,7 @@
 
 ### Supported Coins
 
-Refer to [this file](https://github.com/AlphaX-Projects/alphaxcore/blob/master/src/Alphaxcore/coins.json) for a complete list.
-
-#### Ethereum
-
-Alphaxcore implements the [Ethereum stratum mining protocol](https://github.com/nicehash/Specifications/blob/master/EthereumStratum_NiceHash_v1.0.0.txt) authored by NiceHash. This protocol is implemented by all major Ethereum miners.
-
-- Claymore Miner must be configured to communicate using this protocol by supplying the <code>-esm 3</code> command line option
-- Genoil's ethminer must be configured to communicate using this protocol by supplying the <code>-SP 2</code> command line option
-
-#### ZCash
-
-- Pools needs to be configured with both a t-addr and z-addr (new configuration property "z-address" of the pool configuration element)
-- First configured zcashd daemon needs to control both the t-addr and the z-addr (have the private key)
-- To increase the share processing throughput it is advisable to increase the maximum number of concurrent equihash solvers through the new configuration property "equihashMaxThreads" of the cluster configuration element. Increasing this value by one increases the peak memory consumption of the pool cluster by 1 GB.
-- Miners may use both t-addresses and z-addresses when connecting to the pool
-
-### Donations
-
-You can send donations directly to the following accounts:
-
-* BTC:  `1GXEm97T5iXAeYHBj2GuL3TKKRpkNas4Qt`
-* LTC:  `LWBZWLmjqeQFnMqS9NctcdSx3TEYHyzfGz`
-* ETH:  `0x52FdE416C1D51525aEA390E39CfD5016dAFC01F7`
+Refer to [this file](/src/Alphaxcore/coins.json) for a complete list.
 
 ### Runtime Requirements on Linux
 
